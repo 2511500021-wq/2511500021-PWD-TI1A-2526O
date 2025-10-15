@@ -15,5 +15,6 @@ Hari ini, Rabu 08 Oktober 2025, saya belajar:
 <li>membuat styling untuk selector id #contact</li>
 <li>membuat styling untuk selector id #contact elemen h2</li>
 <li>upgrade struktur form section #contact</li>
+<li>membuat styling untuk selector id #contact elemen label</li>
 
 </ol>
