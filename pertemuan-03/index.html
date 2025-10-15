@@ -89,11 +89,17 @@
             flex-shrink: 0;
         }
 
-        #contact form {
-            display: flex;
-            flex-direction: column;
+        #contact input,
+        #contact textarea {
+            flex: 1;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            padding: 8px;
+            color: #000;
+            font-weight: normal;
+            margin: 0;
+            box-sizing: border-box;
         }
-
         #contact button {
             margin: 10px 0
         }
