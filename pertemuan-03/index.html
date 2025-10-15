@@ -135,6 +135,25 @@
             background-color: #cccccc;
             transform: translateY(-1px);
         }
+
+        @media (max-width:600px) {
+            #contact label {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            #contact label>span {
+                text-align: left;
+                padding-right: 0;
+                margin-bottom: 2px;
+            }
+
+            #contact input,
+            #contact textarea,
+            #contact button {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 
@@ -196,7 +215,7 @@
     </main>
 
     <footer>
-        <p>&#128521; 2025 Wulan Dari (2511500021)</p>
+        <p>&copy; 2025 Wulan Dari (2511500021)</p>
     </footer>
 </body>
 
