@@ -176,6 +176,15 @@ footer {
 }
 
 @media (max-width: 600px) {
+    .menu-toggle {
+        display: none;
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
     header {
         padding: 16px;
         position: sticky;
@@ -183,7 +192,7 @@ footer {
         z-index: 1000;
     }
 
-     header h1 {
+    header h1 {
         margin: 0 0 8 px;
         font-size: 20px;
         line-height: 1.2;
@@ -221,7 +230,7 @@ footer {
         align-items: flex-start;
     }
 
-     .button {
+    .button {
         flex-direction: column-reverse;
     }
 
