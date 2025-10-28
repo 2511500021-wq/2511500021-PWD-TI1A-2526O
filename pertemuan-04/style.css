@@ -31,8 +31,33 @@ header li a {
     padding: 6px 12px;
 }
 
+header li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 12px;
+}
+
+header li a:hover {
+    background-color: rgb(215, 57, 220);
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+header li a:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+    border-radius: 6px;
+    background-color: hsl(244, 59%, 33%);
+}
+
+header li a:active {
+    background-color: rgb(81, 52, 177);
+    transform: translateY(1px);
+}
+
 #about,
-#home {
+#home,
+#contact {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
@@ -42,7 +67,8 @@ header li a {
 }
 
 #about h2,
-#home h2 {
+#home h2,
+#contact h2 {
     color: #003366;
     border-bottom: 2px solid #003366;
     padding-bottom: 6px;
@@ -54,7 +80,8 @@ header li a {
     text-align: justify;
 }
 
-#about p {
+#about p,
+#contact label {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
@@ -63,13 +90,73 @@ header li a {
     border-bottom: 1px solid #e6e6e6;
 }
 
-#about strong {
+#about strong #contact label>span {
     min-width: 180px;
-    color: #003366;
+    color: rgb(31, 43, 110);
     font-weight: 600;
     text-align: right;
     padding-right: 16px;
     flex-shrink: 0;
+}
+
+#contact label>span {
+    min-width: 180px;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 16px;
+    flex-shrink: 0;
+}
+
+#contact input,
+#contact textarea {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;
+    color: #000;
+    font-weight: normal;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+#contact button {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    margin-right: 8px;
+}
+
+#contact button[type="submit"] {
+    background-color: green;
+    color: white;
+    font-weight: 500;
+}
+
+#contact button[type="reset"] {
+    background-color: red;
+    color: white;
+    font-weight: 500;
+}
+
+#contact button[type="submit"]:hover {
+    background-color: #0379ee;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+#contact button[type="reset"]:hover {
+    background-color: rgb(244, 88, 4);
+    transform: translateY(-1px);
 }
 
 footer {
@@ -90,4 +177,22 @@ footer {
         padding-right: 0;
         margin-bottom: 2px;
     }
+
+    #contact label {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #contact label>span {
+        text-align: left;
+        padding-right: 0;
+        margin-bottom: 2px;
+    }
+
+    #contact input,
+    #contact textarea,
+    #contact button {
+        width: 100%;
+    }
+
 }
