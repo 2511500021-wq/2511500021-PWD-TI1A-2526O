@@ -31,7 +31,8 @@ header li a {
     padding: 6px 12px;
 }
 
-#about {
+#about,
+#home {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
@@ -40,12 +41,17 @@ header li a {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#about h2 {
+#about h2,
+#home h2 {
     color: #003366;
     border-bottom: 2px solid #003366;
     padding-bottom: 6px;
     margin-top: 0;
     margin-bottom: 16px;
+}
+
+#home p {
+    text-align: justify;
 }
 
 #about p {
