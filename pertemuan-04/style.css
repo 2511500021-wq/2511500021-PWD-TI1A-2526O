@@ -72,6 +72,13 @@ header li a {
     flex-shrink: 0;
 }
 
+footer {
+    background: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 10px;
+}
+
 @media (max-width: 600px) {
     #about p {
         flex-direction: column;
