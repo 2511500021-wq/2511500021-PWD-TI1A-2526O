@@ -167,6 +167,14 @@ footer {
 }
 
 @media (max-width: 600px) {
+
+    header {
+        padding: 16px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
     #about p {
         flex-direction: column;
         align-items: flex-start;
@@ -181,6 +189,10 @@ footer {
     #contact label {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+     .button {
+        flex-direction: column-reverse;
     }
 
     #contact label>span {
