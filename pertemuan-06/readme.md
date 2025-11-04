@@ -8,4 +8,5 @@ Hari ini, Rabu 22 Oktober 2025, saya mempelajari
     <li>hello.php</li>
     <li>index.php</li>
     <li>variabel php ke section about</li>
+    <li>kumpulan latihan</li>
 </ol>

@@ -99,7 +99,7 @@
 
         <section id="ipk">
         <?php
-            $namaMatkul1 = "Kalkulus";
+            $namaMatkul1 = "Wawasan Budi Luhur";
             $namaMatkul2 = "Logika Informatika";
             $namaMatkul3 = "Pengantar Teknik Informatika";
             $namaMatkul4 = "Aplikasi Perkantoran";
@@ -115,19 +115,19 @@
             $nilaiHadir4 = 100;
             $nilaiHadir5 = 100;
             $nilaiTugas1 = 90;
-            $nilaiTugas2 = 70;
+            $nilaiTugas2 = 85;
             $nilaiTugas3 = 90;
-            $nilaiTugas4 = 80;
+            $nilaiTugas4 = 85;
             $nilaiTugas5 = 90;
             $nilaiUTS1 = 85;
-            $nilaiUTS2 = 75;
+            $nilaiUTS2 = 95;
             $nilaiUTS3 = 90;
-            $nilaiUTS4 = 80;
+            $nilaiUTS4 = 85;
             $nilaiUTS5 = 95;
             $nilaiUAS1 = 90;
-            $nilaiUAS2 = 70;
+            $nilaiUAS2 = 85;
             $nilaiUAS3 = 90;
-            $nilaiUAS4 = 75;
+            $nilaiUAS4 = 85;
             $nilaiUAS5 = 90;
 
             $nilaiAkhir1 = (0.1 * $nilaiHadir1) + (0.2 * $nilaiTugas1) + (0.3 * $nilaiUTS1) + (0.4 * $nilaiUAS1);

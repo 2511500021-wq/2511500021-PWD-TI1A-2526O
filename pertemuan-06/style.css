@@ -57,6 +57,7 @@ header li a:active {
 
 #about,
 #home,
+#ipk,
 #contact {
     background-color: #ffffff;
     border-radius: 10px;
@@ -68,6 +69,7 @@ header li a:active {
 
 #about h2,
 #home h2,
+#ipk h2,
 #contact h2 {
     color: #003366;
     border-bottom: 2px solid #003366;
@@ -90,7 +92,16 @@ header li a:active {
     border-bottom: 1px solid #e6e6e6;
 }
 
+#ipk p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 0;
+    padding: 6px 0;
+}
+
 #about strong,
+#ipk strong,
 #contact label>span {
     min-width: 180px;
     color: rgb(31, 43, 110);
