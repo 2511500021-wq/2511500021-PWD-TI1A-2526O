@@ -28,6 +28,7 @@
             <p>Ini contoh paragraf HTML.</p>
             <?php
                 echo "Hello world!";
+                echo "Nama saya Wulan";
             ?>
         </section>
         <section id="about">
