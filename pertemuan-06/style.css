@@ -90,7 +90,8 @@ header li a:active {
     border-bottom: 1px solid #e6e6e6;
 }
 
-#about strong #contact label>span {
+#about strong,
+#contact label>span {
     min-width: 180px;
     color: rgb(31, 43, 110);
     font-weight: 600;
