@@ -2,11 +2,13 @@
 
 silahkan sesuaikan dengan milik kalian masing-masing:<br><br>
 Hari ini, Rabu 12.NOV.2025, saya:<br>
-NIM: 0344300002<br>
-Nama: Yohanes Setiawan Japriadi<br>
+NIM: 2511500021<br>
+Nama: WULAN DARI<br>
 Kelompok: TI1A<br>
 <br>
-Proses saya mengerjakan UTS ini sebagai berikut:<br>
+Proses saya UTS usebagai berikut:<br>
 <ol>
   <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
+  <li>ekstrak file ke uts ke pertemuan 08</li>
+  <li>menambahkan section baru </li>
 </ol>
