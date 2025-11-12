@@ -11,4 +11,5 @@ Proses saya UTS usebagai berikut:<br>
   <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
   <li>ekstrak file ke uts ke pertemuan 08</li>
   <li>menambahkan section baru </li>
+  <li>menyelesaikan section id about</li>
 </ol>
