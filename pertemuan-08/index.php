@@ -73,7 +73,7 @@ if (isset($_SESSION["sesadik"])): $sesadik = $_SESSION["sesadik"]; endif;
       $NIM = '2511500021';
       $nama = "WULAN";
       $Nama = 'WULAN DARI';
-      $tempat = "Jl.Baru";
+      $tempat = "Belinyu,Jl.Baru";
       ?>
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong>
@@ -87,13 +87,13 @@ if (isset($_SESSION["sesadik"])): $sesadik = $_SESSION["sesadik"]; endif;
         ?> &#128526;
       </p>
       <p><strong>Tempat Lahir:</strong> <?php echo $tempat; ?></p>
-      <p><strong>Tanggal Lahir:</strong> 21 agustus 2006</p>
+      <p><strong>Tanggal Lahir:</strong> 21 Agustus 2006</p>
       <p><strong>Hobi:</strong> Olahraga,mancing,dan mendengarkan musik &#127926;</p>
-      <p><strong>Pasangan:</strong> Micola v.p &hearts;</p>
-      <p><strong>Pekerjaan:</strong> siswa di ISB ATMA LUHUR &copy; 2025</p>
+      <p><strong>Pasangan:</strong> Micola Valencia Phasa &hearts;</p>
+      <p><strong>Pekerjaan:</strong> siswi di ISB ATMA LUHUR &copy; 2025</p>
       <p><strong>Nama Orang Tua:</strong> Bapak Darma putra dan Ibu Masamah</p>
       <p><strong>Nama Kakak:</strong> Marco putra</p>
-      <p><strong>Nama Adik:</strong> Berliant khadafi </p>
+      <p><strong>Nama Adik:</strong> Berliant khadafi galatasaray </p>
     </section>
 
     <section id="contact">
