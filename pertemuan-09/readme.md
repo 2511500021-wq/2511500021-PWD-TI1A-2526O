@@ -25,4 +25,5 @@ Nim : 2511500021
 <li>menghapus baris dari 130-140</li>
 <li>menambahkan kode pembersihan difungsi.php</li>
 <li>menambahkan kode format tanggal pada fungsi.php</li>
+<li>menembahkan kode biodata difungsi.php</li>
 </ol>
