@@ -23,4 +23,6 @@ Nim : 2511500021
 <li>menambahkan session biodata diperoses php</li>
 <li>menambahkan kode dibawah h2</li>
 <li>menghapus baris dari 130-140</li>
+<li>menambahkan kode pembersihan difungsi.php</li>
+<li>menambahkan kode format tanggal pada fungsi.php</li>
 </ol>
