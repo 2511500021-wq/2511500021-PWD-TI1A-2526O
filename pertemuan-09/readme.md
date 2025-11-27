@@ -21,4 +21,5 @@ Nim : 2511500021
 <li>menyalin file dosen yang ada di elerning</li>
 <li>merubah array dproses php</li>
 <li>menambahkan session biodata diperoses php</li>
+<li>menambahkan kode dibawah h2</li>
 </ol>
