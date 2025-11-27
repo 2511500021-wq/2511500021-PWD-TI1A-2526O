@@ -120,13 +120,7 @@ $fieldConfig = [
 
    <section id="about">
     <h2>Tentang Saya</h2>
-      <?php foreach ($fieldConfig as $kunci => $metadata): ?>
-        <p>
-        <strong><?= $metadata["label"] ?></strong>
-        <?= $metadata["suffix"] ?>
-        <?= htmlspecialchars(string:$biodata[$kunci] ?? "") ?>
-      </p>
-    <?php endforeach; ?>
+     <?= tampilkanBiodata(conf: $fieldConfig, arr: $biodata) ?>
   </section>
 
     <section id="contact">

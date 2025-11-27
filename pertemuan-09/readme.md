@@ -26,4 +26,5 @@ Nim : 2511500021
 <li>menambahkan kode pembersihan difungsi.php</li>
 <li>menambahkan kode format tanggal pada fungsi.php</li>
 <li>menembahkan kode biodata difungsi.php</li>
+<li>mengganti baris 123-129 diindex.php</li>
 </ol>
