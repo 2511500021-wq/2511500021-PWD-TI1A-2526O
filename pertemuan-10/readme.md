@@ -9,3 +9,4 @@ Hari ini, Rabu 15 Oktober 2025, saya belajar:
 <li>menambah kode read.php</li>
 <li>rename file read.php menjadi read_inc.php</li>
 <li>update index.php</li>
+<li>update read_inc.php</li>
