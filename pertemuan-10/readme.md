@@ -6,3 +6,4 @@ Hari ini, Rabu 15 Oktober 2025, saya belajar:
 <li>membuat data base di phpmyadmin</li>
 <li>membuat tabel tamu di SQL database</li>
 <li>membuat file baru read.php</li>
+<li>menambah kode read.php</li>
