@@ -6,5 +6,6 @@ Nim: 251150021
 <ol>
  <li>import bahan uas</li>
  <li>hapus index.html</li>
+ <li>membuat tabel biodata</li>
 
  </lo>
