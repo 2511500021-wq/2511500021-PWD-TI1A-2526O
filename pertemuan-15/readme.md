@@ -17,6 +17,7 @@ Nim: 251150021
 <li>copas file proses jadi proses biodata php</li>
 <li>ganti variabel bersihkan post from biodata</li>
 <li>ganti read inc jadi read inc biodata</li>
+<li>mengupdate filedbiodata di index.php</li>
 
 
  </lo>
