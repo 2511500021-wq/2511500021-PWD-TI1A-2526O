@@ -77,7 +77,7 @@
   if (!empty($old_biodata)) {
     $bnim = $old_biodata['nim'] ?? $bnim;
     $bnama = $old_biodata['nama'] ?? $bnama;
-    $btempat_tinggal = $old_biodata['tempat_lahir'] ?? $btempat_tinggal;
+    $btempat_tinggal = $old_biodata['tempat_tinggal'] ?? $btempat_tinggal;
     $btanggal_lahir = $old_biodata['tanggal_lahir'] ?? $btanggal_lahir;
     $bhobi = $old_biodata['hobi'] ?? $bhobi;
     $bpekerjaan = $old_biodata['pekerjaan'] ?? $bpekerjaan;
@@ -174,6 +174,8 @@
 
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
+        <a href="read_biodata.php" class="reset">Kembali</a>
+
       </form>
     </section>
     </main>
