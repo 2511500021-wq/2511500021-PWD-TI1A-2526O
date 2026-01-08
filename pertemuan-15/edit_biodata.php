@@ -4,18 +4,18 @@
   require 'fungsi.php';
 
   /*
-    Ambil nilai cid dari GET dan lakukan validasi untuk 
-    mengecek cid harus angka dan lebih besar dari 0 (> 0).
-    'options' => ['min_range' => 1] artinya cid harus ≥ 1 
+    Ambil nilai bid dari GET dan lakukan validasi untuk 
+    mengecek bid harus angka dan lebih besar dari 0 (> 0).
+    'options' => ['min_range' => 1] artinya bid harus ≥ 1 
     (bukan 0, bahkan bukan negatif, bukan huruf, bukan HTML).
   */
-  $cid = filter_input(INPUT_GET, 'cid', FILTER_VALIDATE_INT, [
+  $bid = filter_input(INPUT_GET, 'bid', FILTER_VALIDATE_INT, [
     'options' => ['min_range' => 1]
   ]);
   /*
     Skrip di atas cara penulisan lamanya adalah:
-    $cid = $_GET['cid'] ?? '';
-    $cid = (int)$cid;
+    $bid = $_GET['bid'] ?? '';
+    $bid = (int)$bid;
 
     Cara lama seperti di atas akan mengambil data mentah 
     kemudian validasi dilakukan secara terpisah, sehingga 
@@ -24,13 +24,13 @@
   */
 
   /*
-    Cek apakah $cid bernilai valid:
-    Kalau $cid tidak valid, maka jangan lanjutkan proses, 
+    Cek apakah $bid bernilai valid:
+    Kalau $bid tidak valid, maka jangan lanjutkan proses, 
     kembalikan pengguna ke halaman awal (read.php) sembari 
     mengirim penanda error.
   */
-  if (!$cid) {
-    $_SESSION['flash_error'] = 'Akses tidak valid.';
+  if (!$bid) {
+    $_SESSION['flash_error_biodata'] = 'Akses tidak valid.';
     redirect_ke('read.php');
   }
 
@@ -38,21 +38,21 @@
     Ambil data lama dari DB menggunakan prepared statement, 
     jika ada kesalahan, tampilkan penanda error.
   */
-  $stmt = mysqli_prepare($conn, "SELECT cid, cnama, cemail, cpesan 
-                                    FROM tbl_tamu WHERE cid = ? LIMIT 1");
+  $stmt = mysqli_prepare($conn, "SELECT bid, cnama, cemail, cpesan 
+                                    FROM tbl_tamu WHERE bid = ? LIMIT 1");
   if (!$stmt) {
-    $_SESSION['flash_error'] = 'Query tidak benar.';
+    $_SESSION['flash_error_biodata'] = 'Query tidak benar.';
     redirect_ke('read.php');
   }
 
-  mysqli_stmt_bind_param($stmt, "i", $cid);
+  mysqli_stmt_bind_param($stmt, "i", $bid);
   mysqli_stmt_execute($stmt);
   $res = mysqli_stmt_get_result($stmt);
   $row = mysqli_fetch_assoc($res);
   mysqli_stmt_close($stmt);
 
   if (!$row) {
-    $_SESSION['flash_error'] = 'Record tidak ditemukan.';
+    $_SESSION['flash_error_biodata'] = 'Record tidak ditemukan.';
     redirect_ke('read.php');
   }
 
@@ -62,9 +62,9 @@
   $pesan = $row['cpesan'] ?? '';
 
   #Ambil error dan nilai old input kalau ada
-  $flash_error = $_SESSION['flash_error'] ?? '';
+  $flash_error_biodata = $_SESSION['flash_error_biodata'] ?? '';
   $old = $_SESSION['old'] ?? [];
-  unset($_SESSION['flash_error'], $_SESSION['old']);
+  unset($_SESSION['flash_error_biodata'], $_SESSION['old']);
   if (!empty($old)) {
     $nama  = $old['nama'] ?? $nama;
     $email = $old['email'] ?? $email;
@@ -98,15 +98,15 @@
     <main>
       <section id="contact">
         <h2>Edit Buku Tamu</h2>
-        <?php if (!empty($flash_error)): ?>
+        <?php if (!empty($flash_error_biodata)): ?>
           <div style="padding:10px; margin-bottom:10px; 
             background:#f8d7da; color:#721c24; border-radius:6px;">
-            <?= $flash_error; ?>
+            <?= $flash_error_biodata; ?>
           </div>
         <?php endif; ?>
         <form action="proses_update.php" method="POST">
 
-          <input type="text" name="cid" value="<?= (int)$cid; ?>">
+          <input type="text" name="bid" value="<?= (int)$bid; ?>">
 
           <label for="txtNama"><span>Nama:</span>
             <input type="text" id="txtNama" name="txtNamaEd" 
