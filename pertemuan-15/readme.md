@@ -27,4 +27,7 @@ Nim: 251150021
 <li>mengganti variabel menjadi sesuai dengan biodata</li>
 <li>mengganti old menjadi old_biodata</li>
 <li>menyesuaikan form contact jadi biodata dan ganti name</li>
+<li>ganti edit.php di read_biodata.php jadi edit_biodata.php</li>
+<li>copas proses_update.php dan rename jadi proses_update_biodata.php</li>
+
  </lo>
