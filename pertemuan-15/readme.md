@@ -15,5 +15,7 @@ Nim: 251150021
  <li>ganti flash sukses jadi flash sukses biodata</li>
  <li>ganti nama kolom dan variabel sesuai tabel biodata</li>
 <li>copas file proses jadi proses biodata php</li>
+<li>ganti variabel bersihkan post from biodata</li>
+
 
  </lo>
