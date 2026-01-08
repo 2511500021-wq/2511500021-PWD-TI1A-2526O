@@ -16,6 +16,7 @@ Nim: 251150021
  <li>ganti nama kolom dan variabel sesuai tabel biodata</li>
 <li>copas file proses jadi proses biodata php</li>
 <li>ganti variabel bersihkan post from biodata</li>
+<li>ganti read inc jadi read inc biodata</li>
 
 
  </lo>
