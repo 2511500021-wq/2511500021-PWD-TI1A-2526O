@@ -26,5 +26,5 @@ Nim: 251150021
 <li>mengganti read.php menjadi read_biodata.php</li>
 <li>mengganti variabel menjadi sesuai dengan biodata</li>
 <li>mengganti old menjadi old_biodata</li>
-
+<li>menyesuaikan form contact jadi biodata dan ganti name</li>
  </lo>
