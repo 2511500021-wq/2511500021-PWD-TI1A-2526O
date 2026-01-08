@@ -18,7 +18,6 @@ Nim: 251150021
 <li>ganti variabel bersihkan post from biodata</li>
 <li>ganti read inc jadi read inc biodata</li>
 <li>mengupdate filedbiodata di read inc_biodata.php</li>
-<li>
-
-
+<li>mengupdate arrbiodata di read inc_biodata.php</li>
+<li>menyisipkan read_inc_biodata di index.php</s>
  </lo>
