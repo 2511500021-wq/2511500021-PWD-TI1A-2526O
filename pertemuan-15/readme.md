@@ -9,5 +9,6 @@ Nim: 251150021
  <li>membuat tabel biodata</li>
  <li>megisi data ke dalam tabel biodata</li>
  <li>copas file read.php</li>
+ <li>rename jadi read_biodata.php</li>
 
  </lo>
