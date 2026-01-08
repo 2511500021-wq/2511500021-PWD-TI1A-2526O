@@ -26,12 +26,12 @@
   /*
     Cek apakah $bid bernilai valid:
     Kalau $bid tidak valid, maka jangan lanjutkan proses, 
-    kembalikan pengguna ke halaman awal (read.php) sembari 
+    kembalikan pengguna ke halaman awal (read_biodata.php) sembari 
     mengirim penanda error.
   */
   if (!$bid) {
     $_SESSION['flash_error_biodata'] = 'Akses tidak valid.';
-    redirect_ke('read.php');
+    redirect_ke('read_biodata.php');
   }
 
   /*
@@ -42,7 +42,7 @@
                                     FROM tbl_tamu WHERE bid = ? LIMIT 1");
   if (!$stmt) {
     $_SESSION['flash_error_biodata'] = 'Query tidak benar.';
-    redirect_ke('read.php');
+    redirect_ke('read_biodata.php');
   }
 
   mysqli_stmt_bind_param($stmt, "i", $bid);
@@ -53,7 +53,7 @@
 
   if (!$row) {
     $_SESSION['flash_error_biodata'] = 'Record tidak ditemukan.';
-    redirect_ke('read.php');
+    redirect_ke('read_biodata.php');
   }
 
   #Nilai awal (prefill form)
@@ -133,7 +133,7 @@
 
           <button type="submit">Kirim</button>
           <button type="reset">Batal</button>
-          <a href="read.php" class="reset">Kembali</a>
+          <a href="read_biodata.php" class="reset">Kembali</a>
         </form>
       </section>
     </main>
