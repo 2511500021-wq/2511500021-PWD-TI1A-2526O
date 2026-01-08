@@ -23,7 +23,7 @@ if (!$q) {
   echo "<p>Belum ada data tamu yang tersimpan.</p>";
 } else {
   while ($row = mysqli_fetch_assoc($q)) {
-    $arbiodata = [
+    $arrBiodata = [
       "nim"  => $row["bnim"]  ?? "",
       "nama" => $row["bnama"] ?? "",
       "tempat_tinggal" => $row["btempat_tinggal"] ?? "",
@@ -35,7 +35,7 @@ if (!$q) {
       "kakak" => $row["bkakak"] ?? "",
       "adik" => $row["badik"] ?? "",
     ];
-    echo tampilkanBiodata($fieldContact, $arrContact);
+    echo tampilkanBiodata($fieldBiodata, $arrBiodata);
   }
 }
 ?>
