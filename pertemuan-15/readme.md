@@ -24,4 +24,7 @@ Nim: 251150021
 <li>mengganti cid menjadi bid </li>
 <li>mengganti flash_error menjadi flash_error_biodata</li>
 <li>mengganti read.php menjadi read_biodata.php</li>
+<li>mengganti variabel menjadi sesuai dengan biodata</li>
+<li>mengganti old menjadi old_biodata</li>
+
  </lo>
