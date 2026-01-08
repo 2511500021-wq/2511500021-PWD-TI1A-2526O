@@ -11,5 +11,7 @@ Nim: 251150021
  <li>copas file read.php</li>
  <li>rename jadi read_biodata.php</li>
  <li>ganti cid jadi bid</li>
-
+ <li>ganti flash error jadi flash error biodata</li>
+ <li>ganti flash sukses jadi flash sukses biodata</li>
+ <li>ganti nama klom dan variabel sesuai tabel biodata</li>
  </lo>
