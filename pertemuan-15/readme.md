@@ -19,5 +19,6 @@ Nim: 251150021
 <li>ganti read inc jadi read inc biodata</li>
 <li>mengupdate filedbiodata di read inc_biodata.php</li>
 <li>mengupdate arrbiodata di read inc_biodata.php</li>
-<li>menyisipkan read_inc_biodata di index.php</s>
+<li>menyisipkan read_inc_biodata di index.php</li>
+<li>mengganti edit.php menjadi eadit edit_biodata.php</li>
  </lo>
