@@ -21,4 +21,5 @@ Nim: 251150021
 <li>mengupdate arrbiodata di read inc_biodata.php</li>
 <li>menyisipkan read_inc_biodata di index.php</li>
 <li>mengganti edit.php menjadi eadit edit_biodata.php</li>
+<li>mengganti cid menjadi bid </li>
  </lo>
