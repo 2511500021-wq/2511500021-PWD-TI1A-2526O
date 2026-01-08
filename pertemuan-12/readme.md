@@ -1,1 +1,2 @@
-# pertemuan-12
+Hari ini Rabu 17 Desember
+saya mengerjakan peretemuan-12
