@@ -75,16 +75,16 @@
   $old_biodata = $_SESSION['old_biodata'] ?? [];
   unset($_SESSION['flash_error_biodata'], $_SESSION['old_biodata']);
   if (!empty($old_biodata)) {
-    $bnim = $old_biodata['bnim'] ?? $bnim;
-    $bnama = $old_biodata['bnama'] ?? $bnama;
+    $bnim = $old_biodata['nim'] ?? $bnim;
+    $bnama = $old_biodata['nama'] ?? $bnama;
     $btempat_tinggal = $old_biodata['tempat_lahir'] ?? $btempat_tinggal;
-    $btanggal_lahir = $old_biodata['btanggal_lahir'] ?? $btanggal_lahir;
-    $bhobi = $old_biodata['bhobi'] ?? $bhobi;
-    $bpekerjaan = $old_biodata['bpekerjaan'] ?? $bpekerjaan;
-    $bpasangan = $old_biodata['bpasangan'] ?? $bpasangan;
-    $borang_tua = $old_biodata['borang_tua'] ?? $borang_tua;
-    $bkakak = $old_biodata['bkakak'] ?? $bkakak;
-    $badik = $old_biodata['badik'] ?? $badik;
+    $btanggal_lahir = $old_biodata['tanggal_lahir'] ?? $btanggal_lahir;
+    $bhobi = $old_biodata['hobi'] ?? $bhobi;
+    $bpekerjaan = $old_biodata['pekerjaan'] ?? $bpekerjaan;
+    $bpasangan = $old_biodata['pasangan'] ?? $bpasangan;
+    $borang_tua = $old_biodata['orang_tua'] ?? $borang_tua;
+    $bkakak = $old_biodata['kakak'] ?? $bkakak;
+    $badik = $old_biodata['adik'] ?? $badik;
   }
 ?>
 
@@ -127,12 +127,12 @@
         </div>
       <?php endif; ?>
 
-      <form action="proses_biodata.php" method="POST">
+      <form action="proses_update_biodata.php" method="POST">
 
         <input type="text" name="bid" value="<?= (int)$bid; ?>">
 
         <label for="txtNim"><span>NIM:</span>
-          <input type="text" id="txtNim" name="txtNimEd" placeholder="Masukkan NIM" required value="<?= !empty($bnim) ? $bnim : '' ?>">
+          <input type="text" id="txtNim" name="txtNimEd" placeholder="Masukkan NIM" required  readonly value="<?= !empty($bnim) ? $bnim : '' ?>">
 >
         </label>
 

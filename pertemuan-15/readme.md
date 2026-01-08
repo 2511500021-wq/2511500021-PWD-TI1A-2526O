@@ -30,5 +30,6 @@ Nim: 251150021
 <li>ganti edit.php di read_biodata.php jadi edit_biodata.php</li>
 <li>copas proses_update.php dan rename jadi proses_update_biodata.php</li>
 <li>ganti nama variabel dan sebagainya agar sesuai dengan biodata</li>
+<li>menambah readonly di form nim</li>
 
  </lo>
